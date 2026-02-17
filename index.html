@@ -1,22 +1,23 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Computer Graphics | Academic Project</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./style.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-
+  <!-- HEADER -->
   <header>
     <h1>Computer Graphics</h1>
-    <p>Sanju : 4020/23</p>
+    <p>BCA Final Year Academic Project | Sanju</p>
   </header>
 
-  <section id="applications">
+  <section id="units">
     <div class="grid">
       <div class="card"><a href="#unit1">Unit - I</a></div>
       <div class="card"><a href="#unit2">Unit - II</a></div>
@@ -25,124 +26,143 @@
     </div>
   </section>
 
-  <nav>
-    <ul>
-      <li><a href="#intro">Introduction</a></li>
-      <li><a href="#applications">Applications</a></li>
-      <li><a href="#hardware">Graphics Hardware</a></li>
-      <li><a href="#devices">Display Devices</a></li>
-      <li><a href="#cad">CAD</a></li>
-      <li><a href="#gui">GUI</a></li>
-      <li><a href="#algorithms">Algorithms</a></li>
-      <li><a href="#transform">Transformations</a></li>
-      <li><a href="#clipping">Clipping</a></li>
-    </ul>
-  </nav>
+  <!-- NAVIGATION -->
+  <section id="unit1">
 
-  <main>
-    <section class="unit1">
-    <section id="intro">
-      <h2>Introduction to Computer Graphics</h2>
-      <p>Computer Graphics is a branch of computer science that deals with creating, storing, manipulating, and
-        displaying visual information using computers.
-        It converts data into images, diagrams, charts, animations, and videos to make information visually
-        understandable.
-
-        Computer Graphics is widely used in engineering, medical science, entertainment, education, business, and
-        research.</p>
-    </section>
-
-    <section id="applications">
-      <h2>Applications of Computer Graphics (Survey)</h2>
-      <div class="img">
-        <img src="./assets/cad.jpg" alt="">
-        <img src="./assets/cad1.jpg" alt="">
-        <img src="./assets/cad2.jpg" alt="">
-      </div>
-      <h4>Computer Aided Design (CAD) : </h4>
-      <p> uses computer systems to assist in the creation, modification, analysis, and
-        optimization of designs. <br>
-      <h4>Uses:</h4>
+    <nav>
       <ul>
-        <li>Mechanical part design</li>
-        <li>Architectural drawings</li>
-        <li>Electrical circuit design</li>
-        <li>Automobile and aircraft modeling</li>
+        <li><a href="#intro">Introduction</a></li>
+        <li><a href="#applications">Applications</a></li>
+        <li><a href="#hardware">Hardware</a></li>
+        <li><a href="#devices">Display Devices</a></li>
+        <li><a href="#cad">CAD</a></li>
+        <li><a href="#gui">GUI</a></li>
+        <li><a href="#algorithms">Algorithms</a></li>
+        <li><a href="#transform">Transformations</a></li>
+        <li><a href="#clipping">Clipping</a></li>
       </ul>
-      <h4>Advantages:</h4>
-      <ul>
-        <li>High accuracy and precision</li>
-        <li>Easy modification of designs</li>
-        <li>Reduced design time</li>
-        <li>Better visualization using 3D models</li>
+    </nav>
 
-      </ul>
-      </p>
-    </section>
+    <main>
+      <!-- INTRO -->
+      <section id="intro">
+        <h2>Introduction to Computer Graphics</h2>
+        <p>
+          Computer Graphics is a branch of computer science that deals with
+          creating, storing, manipulating and displaying visual content using
+          computers. It converts mathematical data into images and animations
+          for better visualization and understanding.
+        </p>
+      </section>
 
-    <section id="hardware">
-      <h2>Overview of Graphics Systems</h2>
-      <p>A graphics system consists of input devices, a central processing unit, graphics processing unit, frame buffer,
-        and output devices that work together to generate visual output.</p>
-    </section>
+      <!-- APPLICATIONS -->
+      <section id="applications">
+        <h2>Applications of Computer Graphics</h2>
 
-    <section id="devices">
-      <h2>Display Devices</h2>
-      <div class="grid">
-        <div class="card">CRT Monitors</div>
-        <div class="card">LCD Displays</div>
-        <div class="card">LED Displays</div>
-        <div class="card">Plasma Panels</div>
-        <div class="card">Raster Scan Systems</div>
-        <div class="card">Random Scan Systems</div>
-      </div>
-    </section>
+        <div class="image-grid">
+          <div class="image-card">
+            <img src="assets/cad.jpg" alt="" />
+            <p>CAD Modeling</p>
+          </div>
+          <div class="image-card">
+            <img src="assets/cad1.jpg" alt="" />
+            <p>3D Design</p>
+          </div>
+          <div class="image-card">
+            <img src="assets/cad2.jpg" alt="" />
+            <p>Engineering Drawing</p>
+          </div>
+        </div>
 
-    <section id="cad">
-      <h2>Computer Aided Design (CAD)</h2>
-      <p>CAD systems assist engineers and designers in creating accurate technical drawings and models with improved
-        efficiency and precision compared to manual methods.</p>
-    </section>
+        <div class="content-box">
+          <h3>Computer Aided Design (CAD)</h3>
+          <ul>
+            <li>Mechanical part design</li>
+            <li>Architectural blueprints</li>
+            <li>Electrical circuit layout</li>
+            <li>Automobile and aircraft modeling</li>
+          </ul>
+        </div>
+      </section>
 
-    <section id="gui">
-      <h2>Graphical User Interface</h2>
-      <p>GUI provides an interactive environment using graphical elements such as windows, icons, menus, and buttons to
-        enhance user experience.</p>
-    </section>
+      <!-- HARDWARE -->
+      <section id="hardware">
+        <h2>Overview of Graphics System</h2>
+        <p>
+          A graphics system consists of input devices, CPU, GPU, frame buffer,
+          and output devices working together to generate images on display.
+        </p>
+      </section>
 
-    <section id="algorithms">
-      <h2>Graphics Algorithms</h2>
-      <div class="grid">
-        <div class="card">Line Drawing Algorithms</div>
-        <div class="card">Circle Drawing Algorithms</div>
-        <div class="card">Ellipse Drawing Algorithms</div>
-      </div>
-    </section>
+      <!-- DISPLAY DEVICES -->
+      <section id="devices">
+        <h2>Display Devices</h2>
+        <div class="grid">
+          <div class="card">CRT Monitor</div>
+          <div class="card">LCD Display</div>
+          <div class="card">LED Display</div>
+          <div class="card">Plasma Panel</div>
+          <div class="card">Raster Scan</div>
+          <div class="card">Random Scan</div>
+        </div>
+      </section>
 
-    <section id="transform">
-      <h2>Geometric Transformations</h2>
-      <div class="grid">
-        <div class="card">Translation</div>
-        <div class="card">Rotation</div>
-        <div class="card">Scaling</div>
-        <div class="card">Reflection</div>
-        <div class="card">Shearing</div>
-      </div>
-    </section>
+      <!-- CAD -->
+      <section id="cad">
+        <h2>Computer Aided Design</h2>
+        <p>
+          CAD systems allow engineers to design 2D drawings and 3D models with
+          high accuracy, easy modification and efficient simulation.
+        </p>
+      </section>
 
-    <section id="clipping">
-      <h2>Clipping and Viewing</h2>
-      <p>Clipping techniques are used to remove unwanted portions of objects outside the viewing area to improve
-        rendering performance.</p>
-    </section>
-    </section>
+      <!-- GUI -->
+      <section id="gui">
+        <h2>Graphical User Interface</h2>
+        <p>
+          GUI provides an interactive environment using windows, icons, menus
+          and pointers to improve user interaction.
+        </p>
+      </section>
+
+      <!-- ALGORITHMS -->
+      <section id="algorithms">
+        <h2>Graphics Algorithms</h2>
+        <div class="grid">
+          <div class="card">DDA Line Algorithm</div>
+          <div class="card">Bresenham Line Algorithm</div>
+          <div class="card">Midpoint Circle Algorithm</div>
+          <div class="card">Ellipse Algorithm</div>
+        </div>
+      </section>
+
+      <!-- TRANSFORMATIONS -->
+      <section id="transform">
+        <h2>Geometric Transformations</h2>
+        <div class="grid">
+          <div class="card">Translation</div>
+          <div class="card">Rotation</div>
+          <div class="card">Scaling</div>
+          <div class="card">Reflection</div>
+          <div class="card">Shearing</div>
+        </div>
+      </section>
+
+      <!-- CLIPPING -->
+      <section id="clipping">
+        <h2>Clipping and Viewing</h2>
+        <p>
+          Clipping removes objects outside viewing window to improve rendering
+          efficiency and performance.
+        </p>
+      </section>
+  </section>
 
   </main>
 
   <footer>
-    <p>Prepared by Sanju | BCA Final Year Project &#169 2026.</p>
+    <p>© 2026 Computer Graphics Project | Developed by Shanaya</p>
   </footer>
-
 </body>
 
 </html>
